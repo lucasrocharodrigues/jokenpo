@@ -1,0 +1,59 @@
+body{
+    background-color: #9CEAEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 51px;
+}
+
+.campo-vencedor{
+    background-color: white;
+    color: #3DCCC7;
+    border: none;
+    border-radius: 13px 13px 0px 0px; 
+    width: 300px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    }
+
+.campo-placar{
+    background-color: white;
+    border: none;
+    border-radius: 13px;
+    display: flex;
+    width: 635px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 36px;
+    }
+
+.campo-jogador{
+    color:#3DCCC7;
+    font-size: 40px;
+}
+
+.campo-pontos{
+    color: #07BEB8;
+    font-size: 47px;
+}
+
+.campo-pontos-1{
+    margin-left: 25px;
+}
+
+
+.campo-pontos-2{
+    margin-right: 25px;
+}
+
+
+.texto-placar{
+    color:#C4FFF9;
+    font-size: 58px;
+}
+
