@@ -3,7 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 51px;
+    padding: 35px;
 }
 
 .campo-vencedor{
@@ -27,7 +27,6 @@ body{
     width: 635px;
     height: 100px;
     align-items: center;
-    justify-content: center;
     justify-content: space-around;
     font-size: 36px;
     }
@@ -53,7 +52,85 @@ body{
 
 
 .texto-placar{
-    color:#C4FFF9;
+    color: #C4FFF9;
     font-size: 58px;
 }
+
+
+.contener-campos{
+    display: flex;
+    align-items: center;
+    margin-top: 44px;
+}
+
+
+.box-campos-jogador-1{
+    height: 370px;
+    width: 510px;
+    display: flex;
+}
+
+
+.box-campos-jogador-2{
+    height: 370px;
+    width: 510px;
+    display: flex;
+}
+
+
+.box-campinhos{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;    
+}
+
+
+.campinho{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.campinho-1 img{
+    transform: scaleX(-1);
+}
+
+.campo-jogada{
+    height: 370px;
+    width: 370px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 26px;
+    margin-right: 26px;
+    min-width: 370px;
+    min-height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.campo-jogada img{
+    width: 80%;
+} 
+
+.campo-jogada-1 img{
+    transform: scaleX(-1);
+}
+
+
+
+
+.texto-jogada{
+    color: #C4FFF9;
+    font-size: 127px;
+    justify-content: center;
+    margin:0;
+}
+
 
